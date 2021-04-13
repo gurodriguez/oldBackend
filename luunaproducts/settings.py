@@ -140,13 +140,13 @@ ALLOWED_HOSTS=['*']
 
 #Email Setings usig AWS SES
 EMAIL_BACKEND = 'django_ses.SESBackend'
-DEFAULT_FROM_EMAIL = 'noreply@pidecomida.mx'
+DEFAULT_FROM_EMAIL = 'noreply@yordomain.mx'
 #system admin accounts to send notifications
-SYSADMIN = ['gabriel.gurodriguez@gmail.com']
+SYSADMIN = ['your@mail.com]
 
 #AWS Credentials
-AWS_ACCESS_KEY_ID = 'AKIAR2MIOKBCJ7OT7SXN'
-AWS_SECRET_ACCESS_KEY = '1DaxKlolgV6cv77OiHZ90IqnuHbQCZ+ud5vPaX2p'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 
 
 
